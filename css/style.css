@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;800&family=Patrick+Hand&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --textColor--: #f8fcf8;
+}
+
+header{
+    font-family: 'Heebo', sans-serif;
+    color: var(--textColor--);
+    text-transform: capitalize;
+    background-color: #262626;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 2em;
+}
+
+.logo{
+    font-family: 'Patrick Hand', cursive;
+    font-weight: normal;
+    font-size: 2.5em;
+}
+
+.nav{
+    margin-top: 0.6em;
+    text-transform: uppercase;
+    font-size: 1.4em;
+    font-weight: 700;
+}
+nav > a, .contact {
+    text-decoration: none;
+    color: var(--textColor--);
+    margin: 0 1.2em 0 0;
+
+}
+.contact{
+    border: 1px solid white;
+    border-radius: 3px;
+    padding: 0.5em 2em;
+    font-size: 1.4em;
+    font-weight: 500;
+    margin: 0;
+}
